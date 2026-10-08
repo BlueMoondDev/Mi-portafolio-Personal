@@ -14,7 +14,7 @@
         <img src="media/provisionalperfil.jpg" alt="fotoperfilprofesional" id="imagen"/>
         <p id="nombre">. . .</p>
         <p id="intro">Soy un desarollador de videojuegos estudiante en formación profesional de Aplicaciones Web, actualmente me implico en varios desarollos de proyectos creativos como programador principal.</p>
-        <p>ENLACE A LA PAGINA: SOBRE MI</p>
+        <a href="sobremi.html" target="_blank"><p class="enlace_a_paginas">ENLACE A LA PAGINA: SOBRE MI</p></a>
     </div>
     <h1 id="enproceso">EN PROCESO (necesito documentos y enlaces)</h1>
     <div id="proyectos-destacados">
@@ -23,17 +23,24 @@
         dentro de la informatica como fuera de ella. </p>
         
         <div class="proyecto_izq_der">
-            <div id="texto"><h2> BLUEMOON RE:WRITTEN</h2>
-            <p>resumen de bluemoon</p></div>
-            <img src="media/bluemoon.jpeg" alt="bluemoon" id="bluemoon"/>
+            <div id="textoBlueMoon" class="textos_proyectos"><h2> BLUEMOON RE:WRITTEN</h2>
+            <p>Iris posee un poder que podría cambiar el destino de su mundo. Junto a Firion y Orion, deberá descubrir la verdad sobre su origen mientras una guerra amenaza con destruirlo todo.</p>
+            <button type="button" id="botonBlueMoon" class="boton"><a href="bluemoon.html" target="_blank" class="enlace">ENLACE A LA PAGINA DEL PROYECTO</a></button></div>
+            <div><img src="media/PORTADA MAIN.png" alt="bluemoon" id="bluemoon" class="imagenIzquierda"/></div>
         </div>
-        
         <div class="proyecto_der_izq">
-            <img src="media/portada.png" alt="portada" id="portada"/>
-            <div id="texto"><h2> PORTADA</h2>
+            <div id="textoArticulos" class="textos_proyectos"><h2> ARTÍCULOS SOBRE VIDEOJUEGOS</h2>
+            <p>resumen de portada</p>
+        <button type="button" id="botonArticulos" class="boton"><a href="articulos.html" target="_blank" class="enlace">ENLACE A LA PAGINA DEL PROYECTO</a></button></div>
+            <div><img src="media/portada.png" alt="portada" id="portada" class="imagenDerecha"/></div>
+        </div>
+            <div class="proyecto_izq_der">
+            <div id="texto" class="textos_proyectos"><h2> PORTADA</h2>
             <p>resumen de portada</p></div>
+            <img src="media/portada.png" alt="portada" id="portada" class="imagenDerecha"/>
         </div>
     </div>
+    <p>ENLACE A LA PAGINA: PROYECTOS</p>
 
 </body>
 </html>
